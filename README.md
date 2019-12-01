@@ -1,6 +1,6 @@
 # flutter_project
 
-A new Flutter application.
+Flutter Project réalisé par MILCENT Corentin, BOINOT Marion, LOPEZ Katherine.
 
 ## Getting Started
 
