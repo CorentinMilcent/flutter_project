@@ -1,15 +1,8 @@
 import 'dart:ui' as prefix0;
 
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:flutter_project/DescriptionActivite.dart';
-import 'package:flutter_project/env.dart';
-import 'package:http/http.dart' as http;
-import 'dart:convert' show json;
-import 'dart:async';
-import 'dart:convert';
+
 import 'package:flutter/foundation.dart';
-import 'package:http/http.dart';
 
 
 
