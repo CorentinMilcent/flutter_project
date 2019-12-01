@@ -96,7 +96,6 @@ class HomePageState extends State<HomePage> {
                   TextField(
                     controller: ville,
                   ),
-
                   Text(
                     'Entrer l\'activité souhaité',
                   ),
@@ -131,7 +130,7 @@ class HomePageState extends State<HomePage> {
                     return new GestureDetector( //You need to make my child interactive
                       onTap: () => Navigator.push(
                           context,
-                          MaterialPageRoute(builder: (context) => DescriptionActivite(name: data[index]["venue"]["name"],adress:data[index]["venue"]["location"]["formattedAddress"],categorie:data[index]["venue"]["categories"][0]["name"] )),
+                          MaterialPageRoute(builder: (context) => DescriptionActivite(name: data[index]["venue"]["name"],adress:data[index]["venue"]["location"]["address"],city:data[index]["venue"]["location"]["city"],postalCode:data[index]["venue"]["location"]["postalCode"],categorie:data[index]["venue"]["categories"][0]["name"] )),
                       ),
                       child: new Card( //I am the clickable child
                         child: new Column(
